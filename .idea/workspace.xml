@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e0e8a0d-7a5a-4759-a6bb-d96352af227b" name="Default" comment="" />
+    <list default="true" id="2e0e8a0d-7a5a-4759-a6bb-d96352af227b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rau-bot-admin/src/main/java/admin/controller/MainController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rau-bot-admin/src/main/resources/Spring-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rau-bot-admin/target/classes/Spring-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rau-bot-admin/target/classes/admin/controller/MainController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rau-bot-admin/target/classes/admin/dao/TestDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rau-bot-admin/target/classes/admin/dto/DayOffDto.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rau-bot-admin/target/classes/admin/impl/TestImpl.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rau-bot-admin/pom.xml" afterPath="$PROJECT_DIR$/../rau-bot-admin/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rau-bot-admin/src/main/resources/raubot.sql" afterPath="$PROJECT_DIR$/../rau-bot-admin/src/main/resources/raubot.sql" />
+    </list>
     <ignored path="$PROJECT_DIR$/../RAU-bot-admin/out/" />
     <ignored path="$PROJECT_DIR$/../RAU-bot-admin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,74 +21,215 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="raubot@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="raubot@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="raubot" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../rau-bot-admin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RauBotApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/RauBotApp.java">
+      <file leaf-file-name="RAUAssistant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/botRau/RAUAssistant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
+                <marker date="1505419154296" expanded="true" signature="1226:1246" ph="SELECT * FRO... dayoff" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="user" pinned="false" current-in-tab="false">
+        <entry file="das://table:/4789f3ef/1a3512cb-5892-4d6b-b8d9-dd109a5352b1/raubot.user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/dao/TestDAO.java">
+      <file leaf-file-name="group" pinned="false" current-in-tab="false">
+        <entry file="das://table:/4789f3ef/1a3512cb-5892-4d6b-b8d9-dd109a5352b1/raubot.group">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../rau-bot-admin/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="367">
+              <caret line="89" column="51" lean-forward="false" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DayOffDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/dto/DayOffDto.java">
+      <file leaf-file-name="ConnectionRAU.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/connection/ConnectionRAU.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/impl/TestImpl.java">
+      <file leaf-file-name="raubot.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/resources/raubot.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="234">
+              <caret line="207" column="42" lean-forward="true" selection-start-line="207" selection-start-column="42" selection-end-line="207" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1505418324652" expanded="true" signature="1:28" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="30:59" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="61:89" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="91:122" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="124:154" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="156:187" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="189:214" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="216:244" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="246:274" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="276:306" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="308:336" ph="DROP TABLE I... " />
+                <marker date="1505418324652" expanded="true" signature="367:490" ph="CREATE TABLE... Institute" />
+                <marker date="1505418324652" expanded="true" signature="493:640" ph="CREATE TABLE... Department" />
+                <marker date="1505418324652" expanded="true" signature="643:776" ph="CREATE TABLE... Group" />
+                <marker date="1505418324652" expanded="true" signature="779:1048" ph="CREATE TABLE... Schedule" />
+                <marker date="1505418324652" expanded="true" signature="1051:1166" ph="CREATE TABLE... Subject" />
+                <marker date="1505418324652" expanded="true" signature="1169:1287" ph="CREATE TABLE... TimeTable" />
+                <marker date="1505418324652" expanded="true" signature="1290:1403" ph="CREATE TABLE... WeekDay" />
+                <marker date="1505418324652" expanded="true" signature="1406:1520" ph="CREATE TABLE... Teacher" />
+                <marker date="1505418324652" expanded="true" signature="1523:1625" ph="CREATE TABLE... Room" />
+                <marker date="1505418324652" expanded="true" signature="1628:1745" ph="CREATE TABLE... LessonType" />
+                <marker date="1505418324652" expanded="true" signature="1748:1876" ph="CREATE TABLE... DayOff" />
+                <marker date="1505418324652" expanded="true" signature="2019:2132" ph="ALTER TABLE `Department`... " />
+                <marker date="1505418324652" expanded="true" signature="2135:2234" ph="ALTER TABLE `Group`... " />
+                <marker date="1505418324652" expanded="true" signature="2237:2338" ph="ALTER TABLE `Schedule`... " />
+                <marker date="1505418324652" expanded="true" signature="2341:2442" ph="ALTER TABLE `Schedule`... " />
+                <marker date="1505418324652" expanded="true" signature="2445:2550" ph="ALTER TABLE `Schedule`... " />
+                <marker date="1505418324652" expanded="true" signature="2553:2659" ph="ALTER TABLE `Schedule`... " />
+                <marker date="1505418324652" expanded="true" signature="2662:2765" ph="ALTER TABLE `Schedule`... " />
+                <marker date="1505418324652" expanded="true" signature="2768:2867" ph="ALTER TABLE `Schedule`... " />
+                <marker date="1505418324652" expanded="true" signature="2870:2979" ph="ALTER TABLE `Schedule`... " />
+                <marker date="1505418324652" expanded="true" signature="3078:3121" ph="insert into institute... " />
+                <marker date="1505418324652" expanded="true" signature="3123:3169" ph="insert into institute... " />
+                <marker date="1505418324652" expanded="true" signature="3171:3213" ph="insert into institute... " />
+                <marker date="1505418324652" expanded="true" signature="3215:3258" ph="insert into institute... " />
+                <marker date="1505418324652" expanded="true" signature="3260:3302" ph="insert into institute... " />
+                <marker date="1505418324652" expanded="true" signature="3305:3364" ph="insert into department... " />
+                <marker date="1505418324652" expanded="true" signature="3367:3455" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="3457:3532" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="3534:3595" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="3597:3654" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="3656:3707" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="3709:3777" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="3779:3843" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="3845:3913" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="3915:4000" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="4002:4073" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="4075:4128" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="4130:4187" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="4189:4244" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="4246:4318" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="4320:4366" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="4368:4431" ph="insert into subject... " />
+                <marker date="1505418324652" expanded="true" signature="4434:4483" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4485:4534" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4536:4585" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4587:4634" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4636:4685" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4687:4734" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4736:4783" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4785:4832" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4834:4882" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4884:4933" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4935:4981" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="4983:5033" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="5035:5082" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="5084:5134" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="5136:5184" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="5186:5234" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="5236:5285" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="5287:5337" ph="insert into teacher... " />
+                <marker date="1505418324652" expanded="true" signature="5341:5387" ph="insert into timetable... " />
+                <marker date="1505418324652" expanded="true" signature="5389:5435" ph="insert into timetable... " />
+                <marker date="1505418324652" expanded="true" signature="5437:5483" ph="insert into timetable... " />
+                <marker date="1505418324652" expanded="true" signature="5485:5531" ph="insert into timetable... " />
+                <marker date="1505418324652" expanded="true" signature="5533:5579" ph="insert into timetable... " />
+                <marker date="1505418324652" expanded="true" signature="5581:5627" ph="insert into timetable... " />
+                <marker date="1505418324652" expanded="true" signature="5631:5667" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5669:5705" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5707:5743" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5745:5781" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5783:5819" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5821:5857" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5859:5895" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5897:5933" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5935:5971" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="5973:6009" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="6011:6047" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="6049:6085" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="6087:6123" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="6125:6161" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="6163:6199" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="6201:6237" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="6239:6311" ph="insert into room... " />
+                <marker date="1505418324652" expanded="true" signature="6314:6360" ph="insert into weekDay... " />
+                <marker date="1505418324652" expanded="true" signature="6362:6404" ph="insert into weekDay... " />
+                <marker date="1505418324652" expanded="true" signature="6406:6446" ph="insert into weekDay... " />
+                <marker date="1505418324652" expanded="true" signature="6448:6490" ph="insert into weekDay... " />
+                <marker date="1505418324652" expanded="true" signature="6492:6534" ph="insert into weekDay... " />
+                <marker date="1505418324652" expanded="true" signature="6536:6578" ph="insert into weekDay... " />
+                <marker date="1505418324652" expanded="true" signature="6582:6631" ph="insert into lessonType... " />
+                <marker date="1505418324652" expanded="true" signature="6633:6690" ph="insert into lessonType... " />
+                <marker date="1505418324652" expanded="true" signature="6692:6748" ph="insert into lessonType... " />
+                <marker date="1505418324652" expanded="true" signature="6750:6798" ph="insert into lessonType... " />
+                <marker date="1505418324652" expanded="true" signature="6801:6850" ph="insert into `group`... " />
+                <marker date="1505418324652" expanded="true" signature="6852:6901" ph="insert into `group`... " />
+                <marker date="1505418324652" expanded="true" signature="6903:6952" ph="insert into `group`... " />
+                <marker date="1505418324652" expanded="true" signature="6954:7003" ph="insert into `group`... " />
+                <marker date="1505418324652" expanded="true" signature="7005:7054" ph="insert into `group`... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,7 +244,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../RAU-bot-admin" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rau-bot-admin" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -108,6 +259,11 @@
         <option value="$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/RauBotApp.java" />
         <option value="$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/dao/TestDAO.java" />
         <option value="$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/impl/TestImpl.java" />
+        <option value="$PROJECT_DIR$/../rau-bot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/../rau-bot-admin/src/main/resources/Spring-context.xml" />
+        <option value="$PROJECT_DIR$/../rau-bot-admin/src/main/resources/raubot.sql" />
+        <option value="$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/botRau/RAUAssistant.java" />
+        <option value="$PROJECT_DIR$/../rau-bot-admin/.gitignore" />
       </list>
     </option>
   </component>
@@ -124,7 +280,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -146,88 +302,82 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-bot-telegram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rau-bot-admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-bot-telegram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rau-bot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-bot-telegram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rau-bot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-bot-telegram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rau-bot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-bot-telegram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rau-bot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-bot-telegram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rau-bot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="botRau" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-bot-telegram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rau-bot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RAU-bot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RAU-bot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-bot-telegram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rau-bot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -241,7 +391,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RauBotApp">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="bot.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../RAU-bot-admin" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RAU-bot-admin" />
+      <envs />
+    </configuration>
     <configuration name="RauBotApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -282,6 +446,19 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -301,19 +478,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -342,9 +506,14 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.RauBotApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.RauBotApp" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RauBotApp" />
       </list>
     </recent_temporary>
   </component>
@@ -359,48 +528,58 @@
       <option name="presentableId" value="Default" />
       <updated>1505401493212</updated>
       <workItem from="1505401495671" duration="571000" />
+      <workItem from="1505407157673" duration="1223000" />
+      <workItem from="1505415324336" duration="762000" />
+      <workItem from="1505417624530" duration="1492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="571000" />
+    <option name="totallyTimeSpent" value="4048000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22564103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34188035" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39802632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -413,69 +592,482 @@
           <line>13</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/botRau/RAUAssistant.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/connection/ConnectionRAU.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/RauBotApp.java">
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/botRau/RAUAssistant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="459">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
+            <marker date="1505419154296" expanded="true" signature="1226:1246" ph="SELECT * FRO... dayoff" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/controller/MainController.java">
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/connection/ConnectionRAU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/resources/raubot.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
+            <marker date="1505418324652" expanded="true" signature="1:28" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="30:59" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="61:89" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="91:122" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="124:154" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="156:187" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="189:214" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="216:244" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="246:274" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="276:306" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="308:336" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="367:490" ph="CREATE TABLE... Institute" />
+            <marker date="1505418324652" expanded="true" signature="493:640" ph="CREATE TABLE... Department" />
+            <marker date="1505418324652" expanded="true" signature="643:776" ph="CREATE TABLE... Group" />
+            <marker date="1505418324652" expanded="true" signature="779:1048" ph="CREATE TABLE... Schedule" />
+            <marker date="1505418324652" expanded="true" signature="1051:1166" ph="CREATE TABLE... Subject" />
+            <marker date="1505418324652" expanded="true" signature="1169:1287" ph="CREATE TABLE... TimeTable" />
+            <marker date="1505418324652" expanded="true" signature="1290:1403" ph="CREATE TABLE... WeekDay" />
+            <marker date="1505418324652" expanded="true" signature="1406:1520" ph="CREATE TABLE... Teacher" />
+            <marker date="1505418324652" expanded="true" signature="1523:1625" ph="CREATE TABLE... Room" />
+            <marker date="1505418324652" expanded="true" signature="1628:1745" ph="CREATE TABLE... LessonType" />
+            <marker date="1505418324652" expanded="true" signature="1748:1876" ph="CREATE TABLE... DayOff" />
+            <marker date="1505418324652" expanded="true" signature="2019:2132" ph="ALTER TABLE `Department`... " />
+            <marker date="1505418324652" expanded="true" signature="2135:2234" ph="ALTER TABLE `Group`... " />
+            <marker date="1505418324652" expanded="true" signature="2237:2338" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2341:2442" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2445:2550" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2553:2659" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2662:2765" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2768:2867" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2870:2979" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="3078:3121" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3123:3169" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3171:3213" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3215:3258" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3260:3302" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3305:3364" ph="insert into department... " />
+            <marker date="1505418324652" expanded="true" signature="3367:3455" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3457:3532" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3534:3595" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3597:3654" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3656:3707" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3709:3777" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3779:3843" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3845:3913" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3915:4000" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4002:4073" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4075:4128" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4130:4187" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4189:4244" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4246:4318" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4320:4366" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4368:4431" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4434:4483" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4485:4534" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4536:4585" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4587:4634" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4636:4685" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4687:4734" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4736:4783" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4785:4832" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4834:4882" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4884:4933" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4935:4981" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4983:5033" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5035:5082" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5084:5134" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5136:5184" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5186:5234" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5236:5285" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5287:5337" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5341:5387" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5389:5435" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5437:5483" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5485:5531" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5533:5579" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5581:5627" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5631:5667" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5669:5705" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5707:5743" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5745:5781" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5783:5819" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5821:5857" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5859:5895" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5897:5933" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5935:5971" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5973:6009" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6011:6047" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6049:6085" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6087:6123" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6125:6161" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6163:6199" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6201:6237" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6239:6311" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6314:6360" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6362:6404" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6406:6446" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6448:6490" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6492:6534" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6536:6578" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6582:6631" ph="insert into lessonType... " />
+            <marker date="1505418324652" expanded="true" signature="6633:6690" ph="insert into lessonType... " />
+            <marker date="1505418324652" expanded="true" signature="6692:6748" ph="insert into lessonType... " />
+            <marker date="1505418324652" expanded="true" signature="6750:6798" ph="insert into lessonType... " />
+            <marker date="1505418324652" expanded="true" signature="6801:6850" ph="insert into `group`... " />
+            <marker date="1505418324652" expanded="true" signature="6852:6901" ph="insert into `group`... " />
+            <marker date="1505418324652" expanded="true" signature="6903:6952" ph="insert into `group`... " />
+            <marker date="1505418324652" expanded="true" signature="6954:7003" ph="insert into `group`... " />
+            <marker date="1505418324652" expanded="true" signature="7005:7054" ph="insert into `group`... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/dto/DayOffDto.java">
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/botRau/RAUAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <marker date="1505419154296" expanded="true" signature="1226:1246" ph="SELECT * FRO... dayoff" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/connection/ConnectionRAU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/RauBotApp.java" />
+    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/controller/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/dto/DayOffDto.java" />
+    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/dao/TestDAO.java" />
+    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/impl/TestImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/resources/Spring-context.xml" />
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/connection/ConnectionRAU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/dao/TestDAO.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1a3512cb-5892-4d6b-b8d9-dd109a5352b1/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RAU-bot-admin/src/main/java/project/impl/TestImpl.java">
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/resources/raubot.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="234">
+          <caret line="207" column="42" lean-forward="true" selection-start-line="207" selection-start-column="42" selection-end-line="207" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1505418324652" expanded="true" signature="1:28" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="30:59" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="61:89" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="91:122" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="124:154" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="156:187" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="189:214" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="216:244" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="246:274" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="276:306" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="308:336" ph="DROP TABLE I... " />
+            <marker date="1505418324652" expanded="true" signature="367:490" ph="CREATE TABLE... Institute" />
+            <marker date="1505418324652" expanded="true" signature="493:640" ph="CREATE TABLE... Department" />
+            <marker date="1505418324652" expanded="true" signature="643:776" ph="CREATE TABLE... Group" />
+            <marker date="1505418324652" expanded="true" signature="779:1048" ph="CREATE TABLE... Schedule" />
+            <marker date="1505418324652" expanded="true" signature="1051:1166" ph="CREATE TABLE... Subject" />
+            <marker date="1505418324652" expanded="true" signature="1169:1287" ph="CREATE TABLE... TimeTable" />
+            <marker date="1505418324652" expanded="true" signature="1290:1403" ph="CREATE TABLE... WeekDay" />
+            <marker date="1505418324652" expanded="true" signature="1406:1520" ph="CREATE TABLE... Teacher" />
+            <marker date="1505418324652" expanded="true" signature="1523:1625" ph="CREATE TABLE... Room" />
+            <marker date="1505418324652" expanded="true" signature="1628:1745" ph="CREATE TABLE... LessonType" />
+            <marker date="1505418324652" expanded="true" signature="1748:1876" ph="CREATE TABLE... DayOff" />
+            <marker date="1505418324652" expanded="true" signature="2019:2132" ph="ALTER TABLE `Department`... " />
+            <marker date="1505418324652" expanded="true" signature="2135:2234" ph="ALTER TABLE `Group`... " />
+            <marker date="1505418324652" expanded="true" signature="2237:2338" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2341:2442" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2445:2550" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2553:2659" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2662:2765" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2768:2867" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="2870:2979" ph="ALTER TABLE `Schedule`... " />
+            <marker date="1505418324652" expanded="true" signature="3078:3121" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3123:3169" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3171:3213" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3215:3258" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3260:3302" ph="insert into institute... " />
+            <marker date="1505418324652" expanded="true" signature="3305:3364" ph="insert into department... " />
+            <marker date="1505418324652" expanded="true" signature="3367:3455" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3457:3532" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3534:3595" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3597:3654" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3656:3707" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3709:3777" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3779:3843" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3845:3913" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="3915:4000" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4002:4073" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4075:4128" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4130:4187" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4189:4244" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4246:4318" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4320:4366" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4368:4431" ph="insert into subject... " />
+            <marker date="1505418324652" expanded="true" signature="4434:4483" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4485:4534" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4536:4585" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4587:4634" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4636:4685" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4687:4734" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4736:4783" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4785:4832" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4834:4882" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4884:4933" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4935:4981" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="4983:5033" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5035:5082" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5084:5134" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5136:5184" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5186:5234" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5236:5285" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5287:5337" ph="insert into teacher... " />
+            <marker date="1505418324652" expanded="true" signature="5341:5387" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5389:5435" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5437:5483" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5485:5531" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5533:5579" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5581:5627" ph="insert into timetable... " />
+            <marker date="1505418324652" expanded="true" signature="5631:5667" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5669:5705" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5707:5743" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5745:5781" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5783:5819" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5821:5857" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5859:5895" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5897:5933" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5935:5971" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="5973:6009" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6011:6047" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6049:6085" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6087:6123" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6125:6161" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6163:6199" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6201:6237" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6239:6311" ph="insert into room... " />
+            <marker date="1505418324652" expanded="true" signature="6314:6360" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6362:6404" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6406:6446" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6448:6490" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6492:6534" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6536:6578" ph="insert into weekDay... " />
+            <marker date="1505418324652" expanded="true" signature="6582:6631" ph="insert into lessonType... " />
+            <marker date="1505418324652" expanded="true" signature="6633:6690" ph="insert into lessonType... " />
+            <marker date="1505418324652" expanded="true" signature="6692:6748" ph="insert into lessonType... " />
+            <marker date="1505418324652" expanded="true" signature="6750:6798" ph="insert into lessonType... " />
+            <marker date="1505418324652" expanded="true" signature="6801:6850" ph="insert into `group`... " />
+            <marker date="1505418324652" expanded="true" signature="6852:6901" ph="insert into `group`... " />
+            <marker date="1505418324652" expanded="true" signature="6903:6952" ph="insert into `group`... " />
+            <marker date="1505418324652" expanded="true" signature="6954:7003" ph="insert into `group`... " />
+            <marker date="1505418324652" expanded="true" signature="7005:7054" ph="insert into `group`... " />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/src/main/java/bot/botRau/RAUAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+          <folding>
+            <marker date="1505419154296" expanded="true" signature="1226:1246" ph="SELECT * FRO... dayoff" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4789f3ef/1a3512cb-5892-4d6b-b8d9-dd109a5352b1/raubot.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4789f3ef/1a3512cb-5892-4d6b-b8d9-dd109a5352b1/raubot.group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rau-bot-admin/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="89" column="51" lean-forward="false" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>RAU-bot-admin:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RAU-bot-admin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
